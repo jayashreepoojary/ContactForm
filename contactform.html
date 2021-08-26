@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+    <div class="box">
+    <form action="" method="get">
+    <h1 class="mainhead">Contact Form</h1>
+    <div id="wrapper">
+    <p>Name: <input type="text" name="name" id="name" placeholder="last name first name father's name"></p>
+    <p>Age: <input type="number" name="age" id="age" placeholder="age in years"></p>
+    <p>Phone number: <input type="tel" name="Phone number" id="Phone number"></p>
+    <p>Whatsapp number: <input type="tel" name="Whatsapp number" id="Whatsapp number"></p>
+    <p>Email: <input type="email" name="email" id="email"></p>
+    <p>Enquiry about:
+        <select class="enq" name="Enquiry" id="Enquiry">
+            <option value="">--Query about--</option> <!--important, or else card type won't be saved to server-->
+                    <option value="Admission">Admission</option>
+                    <option value="Fee">Fee</option>
+                    <option value="Exam">Exam</option>
+                    <option value="Holiday leave">Holiday leave</option>
+                    <option value="Functions">Functions</option>
+                    <option value="Others">Others</option>
+                </select>
+    <p>Ask us: <input type="text" name="Ask us" id="Ask us" placeholder="Type your query here"></p>
+    <input type="submit" value="SEND">
+    </form>
+    </div>
+    </div>   
+</body>
+</html>
